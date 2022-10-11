@@ -7,6 +7,7 @@
 -   Grid Layout;
 -   Flexbox;
 -   Pseudo-classes;
+-   Pseudo-elementos;
 -   HTML Semântico;
 -   Responsividade através de media queries;
 
