@@ -1,0 +1,62 @@
+.conteudo {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	max-width: 1000px;
+}
+
+.introducao {
+	display: grid;
+	gap: 20px;
+	align-content: center;
+	justify-items: flex-end;
+
+	position: relative;
+	background: #fff;
+	padding: 40px;
+	text-align: right;
+}
+
+.introducao h1 {
+	font-size: 2rem;
+}
+
+.introducao::before {
+	content: "";
+	width: 60px;
+	height: 4px;
+	background: #e21;
+	position: absolute;
+	top: 30px;
+	right: -30px;
+}
+
+.introducao-cover img {
+	/* cortar a imagem e faz com que preencha toda a caixa, mas não perde suas dimensões. */
+	object-fit: cover;
+
+	/* altura do container da imagem terá 100% em relação ao pai. */
+	height: 100%;
+}
+
+.botao {
+	background: #e21;
+	color: #fff;
+	padding: 1rem 2rem;
+	border-radius: 4px;
+	text-transform: uppercase;
+	margin-top: 10px;
+}
+
+.botao:hover {
+	background: #900;
+}
+
+.subtitulo {
+	font-size: 4rem;
+	text-transform: uppercase;
+	color: rgba(0, 0, 0, 0.2);
+	text-align: right;
+	padding: 40px;
+	align-self: center;
+	background: url("../assets/onda.svg");
+}

@@ -1,0 +1,27 @@
+.header {
+	display: grid;
+	justify-items: center;
+	gap: 60px;
+}
+
+.menu {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 20px;
+	justify-content: center;
+}
+
+.menu a {
+	display: inline-block;
+	background: #fff;
+	padding: 1rem 2rem;
+	border-radius: 4px;
+	color: #000;
+	text-transform: uppercase;
+
+	border: 2px solid transparent;
+}
+
+.menu a:hover {
+	border-color: #e21;
+}

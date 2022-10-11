@@ -1,0 +1,26 @@
+.vantagens {
+	background: #fff;
+	padding: 40px;
+}
+
+.vantagens-item {
+	display: grid;
+	grid-template-columns: auto 1fr;
+	gap: 10px 20px;
+	padding: 20px;
+}
+
+.vantagens-item:hover {
+	/* efeito de borda na esquerda do elemento. */
+	border-left: 4px solid #e21;
+}
+
+/* aplicando estilos para elementos ímpares. */
+.vantagens-item:nth-child(odd) {
+	background: #f7f7f7;
+}
+
+/* posicionando o texto de vantagem na 2º coluna. */
+.vantagens-item p {
+	grid-column: 2;
+}
