@@ -9,17 +9,18 @@
 	gap: 20px;
 	align-content: center;
 	justify-items: flex-end;
-
-	position: relative;
 	background: #fff;
 	padding: 40px;
 	text-align: right;
+
+	position: relative;
 }
 
 .introducao h1 {
 	font-size: 2rem;
 }
 
+/* criando o detalhe vermelho que fica entre a imagem e o texto. */
 .introducao::before {
 	content: "";
 	width: 60px;
@@ -31,10 +32,10 @@
 }
 
 .introducao-cover img {
-	/* cortar a imagem e faz com que preencha toda a caixa, mas não perde suas dimensões. */
+	/* corta a imagem e faz com que preencha todo o container, mantendo sua proporção. */
 	object-fit: cover;
 
-	/* altura do container da imagem terá 100% em relação ao pai. */
+	/* a imagem ocupa 100% do tamanho do seu container, em relação ao pai. */
 	height: 100%;
 }
 
@@ -49,14 +50,4 @@
 
 .botao:hover {
 	background: #900;
-}
-
-.subtitulo {
-	font-size: 4rem;
-	text-transform: uppercase;
-	color: rgba(0, 0, 0, 0.2);
-	text-align: right;
-	padding: 40px;
-	align-self: center;
-	background: url("../assets/onda.svg");
 }
