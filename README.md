@@ -1,6 +1,6 @@
 # Bikcraft
 
-#### Pequeno projeto **_front-end_** para aplicar conhecimentos de HTML e CSS.
+#### Pequeno projeto **_Front-End_** para aplicar conhecimentos de HTML e CSS.
 
 #### Recursos utilizados :
 
