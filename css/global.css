@@ -8,15 +8,15 @@
 	--onda: url("../assets/onda-clara.svg");
 }
 
+:root {
+	--fundo-1: #111;
+	--fundo-2: #000;
+	--texto: #fff;
+	--cor-subtitulo: rgba(255, 255, 255, 0.2);
+	--onda: url("../assets/onda-escura.svg");
+}
 /* utilizando dark mode. */
 @media (prefers-color-scheme: dark) {
-	:root {
-		--fundo-1: #111;
-		--fundo-2: #000;
-		--texto: #fff;
-		--cor-subtitulo: rgba(255, 255, 255, 0.2);
-		--onda: url("../assets/onda-escura.svg");
-	}
 }
 
 body {

@@ -36,6 +36,10 @@ Vantagens Bikcraft: 64px;
 conteúdo principal: máximo 1000px;
 ```
 
-# Resultado Final
+# Resultado final
 
 <img src="./assets/project-print.png">
+
+# Resultado final com dark mode
+
+<img src="./assets/dark-mode.png">
