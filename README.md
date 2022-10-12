@@ -10,6 +10,7 @@
 -   Pseudo-elementos;
 -   HTML Semântico;
 -   Responsividade através de media queries;
+-   Dark Mode;
 
 # Especificações
 
