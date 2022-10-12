@@ -11,7 +11,7 @@
 -   HTML Semântico;
 -   Responsividade através de media queries;
 -   Dark Mode;
--   Propriedades Customizadas;
+-   Propriedades Customizadas (CSS);
 
 # Especificações
 
