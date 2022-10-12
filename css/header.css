@@ -13,15 +13,15 @@
 
 .menu a {
 	display: inline-block;
-	background: #fff;
+	background: var(--fundo-2);
 	padding: 1rem 2rem;
 	border-radius: 4px;
-	color: #000;
+	color: var(--texto);
 	text-transform: uppercase;
 
 	border: 2px solid transparent;
 }
 
 .menu a:hover {
-	border-color: #e21;
+	border-color: var(--cor-primaria);
 }

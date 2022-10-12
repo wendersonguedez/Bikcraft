@@ -1,15 +1,15 @@
 .subtitulo {
 	font-size: 4rem;
 	text-transform: uppercase;
-	color: rgba(0, 0, 0, 0.2);
+	color: var(--cor-subtitulo);
 	text-align: right;
 	padding: 40px;
 	align-self: center;
-	background: url("../assets/onda.svg");
+	background: var(--onda);
 }
 
 .vantagens {
-	background: #fff;
+	background: var(--fundo-2);
 	padding: 40px;
 }
 
@@ -22,12 +22,12 @@
 
 .vantagens-item:hover {
 	/* efeito de borda na esquerda do elemento. */
-	border-left: 4px solid #e21;
+	border-left: 4px solid var(--cor-primaria);
 }
 
 /* aplicando estilos para elementos ímpares. */
 .vantagens-item:nth-child(odd) {
-	background: #f7f7f7;
+	background: var(--fundo-1);
 }
 
 /* posicionando o texto de vantagem na 2º coluna. */

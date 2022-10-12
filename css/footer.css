@@ -2,6 +2,6 @@
 	width: 100%;
 	text-align: center;
 	padding: 40px;
-	background: #fff;
+	background: var(--fundo-2);
 	box-sizing: border-box;
 }

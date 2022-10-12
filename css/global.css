@@ -1,11 +1,33 @@
+:root {
+	--cor-primaria: #e21;
+	--cor-primaria-escura: #900;
+	--fundo-1: #f7f7f7;
+	--fundo-2: #fff;
+	--texto: #000000;
+	--cor-subtitulo: rgba(0, 0, 0, 0.2);
+	--onda: url("../assets/onda-clara.svg");
+}
+
+/* utilizando dark mode. */
+@media (prefers-color-scheme: dark) {
+	:root {
+		--fundo-1: #111;
+		--fundo-2: #000;
+		--texto: #fff;
+		--cor-subtitulo: rgba(255, 255, 255, 0.2);
+		--onda: url("../assets/onda-escura.svg");
+	}
+}
+
 body {
 	font-family: Arial, Helvetica, sans-serif;
 	margin: 0;
-	background: #f7f7f7;
+	background: var(--fundo-1);
 	display: grid;
 	gap: 60px;
 	justify-items: center;
 	margin-top: 60px;
+	color: var(--texto);
 }
 
 img {
